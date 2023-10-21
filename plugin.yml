@@ -1,0 +1,16 @@
+name: SellMenu
+main: HeY\Menu\Main
+version: 2.0.0
+api: 5.0.0
+author: HeY
+depend: [SellAll]
+
+commands:
+  sellmenu:
+    description: "Bazaar"
+    permission: sellmenu.command
+    aliases: [bazaar]
+
+permissions:
+  sellmenu.command:
+    default: true
