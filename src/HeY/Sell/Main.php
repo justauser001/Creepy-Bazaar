@@ -1,6 +1,6 @@
 <?php
 
-namespace HeY\Menu;
+namespace HeY\Sell;
 
 use pocketmine\Server;
 use pocketmine\player\Player; 
@@ -26,7 +26,7 @@ class Main extends PluginBase implements Listener {
             if ($sender instanceof Player) {
                 $this->formUI($sender);
             } else {
-                $sender->sendMessage("Nepe encendido ArleyMC");
+                $sender->sendMessage("Bazaar");
             }
         }
         return true;
